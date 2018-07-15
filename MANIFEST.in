@@ -1,6 +1,6 @@
-include *.md
+include *.rst
 
 recursive-include docs *
-recursive-include diazo *
+recursive-include diazoframework *
 
 global-exclude *pyc
