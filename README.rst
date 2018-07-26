@@ -6,11 +6,13 @@ diazoframework.kube
 Introduction
 ============
 
-``diazoframework.kube`` package provides the diazo framework implementation 
-of the `Kube CSS framework`_ using the **theming** and **packaging** 
-features available for create Diazo_ theme using `plone.app.theming`_. 
+``diazoframework.kube`` package provides the diazo framework implementation of the 
+`Kube CSS framework`_ using the **theming** and **packaging** features available 
+for create `Diazo`_ theme using `plone.app.theming`_. 
 
-They are useful for creating themes based on `Kube CSS framework`_. 
+They are useful for creating themes based on `Kube CSS framework`_. For documentation 
+on the framework itself, check the website.
+
 A Diazo framework should provide the framework resources and diazo rules to reuse 
 and add to in a Diazo theme.
 
@@ -19,9 +21,9 @@ Requirements
 ============
 
 - From the Plone 4.1.x To the Plone 4.3 latest version (https://plone.org/download)
-- The ``plone.app.theming`` package (*You will need enable it via ``Add-ons`` control 
+- The ``plone.app.theming`` package (*You will need enable it via "Add-ons" control 
   panel to use this package*)
-- The ``diazoframework.plone`` package (*You will need enable it via ``buildout`` 
+- The ``diazoframework.plone`` package (*You will need enable it via "buildout" 
   configuration to use this package*)
 
 
@@ -36,7 +38,6 @@ Features
 
 Installation
 ============
-
 
 This add-on can be installed has any other add-ons. It's doesn't have any profile, so 
 just add it to your Zope instance, for doing that please the follow steps: 
@@ -75,7 +76,6 @@ The resources of this framework can be reached through
 ``diazoframework.kube/diazoframework/kube/framework/`` 
 directory with following resources files:
 
-
 ::
 
     _ css
@@ -95,12 +95,13 @@ directory with following resources files:
 Current themes
 ==============
 
-The `diazoframework.kube <https://github.com/TH-code/diazoframework.kube>`_ package have the following themes:
+The `diazoframework.kube`_ package have the following themes:
 
-- `diazotheme.kube <https://github.com/TH-code/diazotheme.kube>`_.
+`diazotheme.kube`_
+    which contains themes that can both be used as starters for your own *Kube CSS* based theme.
 
 
-For more frameworks see: `diazoframework.plone <https://github.com/TH-code/diazoframework.plone#current-frameworks>`_
+For more frameworks see: the `diazoframework.plone`_ package.
 
 
 Contribute
@@ -114,6 +115,8 @@ License
 =======
 
 The project is licensed under the GPLv2.
+
+The *Kube CSS framework* is licensed as free.
 
 
 Credits
@@ -131,6 +134,8 @@ You can find an updated list of package contributors on https://github.com/TH-co
 
 
 .. _`Kube CSS framework`: http://imperavi.com/kube/
-.. _`diazoframework.kube`: https://github.com/TH-code/diazoframework.kube
+.. _`diazoframework.plone`: https://github.com/collective/diazoframework.plone#current-frameworks
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
+.. _`diazoframework.kube`: https://github.com/TH-code/diazoframework.kube
+.. _`diazotheme.kube`: https://github.com/TH-code/diazotheme.kube
