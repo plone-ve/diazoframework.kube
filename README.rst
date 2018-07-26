@@ -19,7 +19,10 @@ Requirements
 ============
 
 - From the Plone 4.1.x To the Plone 4.3 latest version (https://plone.org/download)
-- The ``plone.app.theming`` package (*You will need enable it to use this package*)
+- The ``plone.app.theming`` package (*You will need enable it via ``Add-ons`` control 
+  panel to use this package*)
+- The ``diazoframework.plone`` package (*You will need enable it via ``buildout`` 
+  configuration to use this package*)
 
 
 Features
@@ -33,6 +36,10 @@ Features
 
 Installation
 ============
+
+
+This add-on can be installed has any other add-ons. It's doesn't have any profile, so 
+just add it to your Zope instance, for doing that please the follow steps: 
 
 
 Buildout
